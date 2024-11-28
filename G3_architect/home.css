@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-size: 3rem;
+}
+
+button {
+    font-size: 1.5rem;
+    color: black;
+    background-color: coral;
+    padding: 1em;
+    border-radius: 10px;
+    border-style: none;
+}
